@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="manacadaserra.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+  
+</head>
+<body>
+    <img src="logo.png" alt="">
+    <h1 id="manaca">Espaço Manacá da Serra</h1><br>
+    <h2>Preencha as informações solicitadas:</h2>
+    <form action="https://formsubmit.co/cadastrodafamilia01@gmail.com" method="post">
+		
+		<label for="name"><b>Nome completo</b></label>
+		<input type="text" placeholder="Digite seu nome" name="nome" required><br>
+        <label for="name"><b>Email</b></label>
+		<input type="text" placeholder="Digite seu email" name="email" required><br>
+
+		<label for="RG"><b>RG</b></label>
+		<input type="text" placeholder="Digite seu RG" name="RG" required><br>
+
+        <label for="CPF"><b>CPF</b></label>
+        <input type="text" placeholder="Digite seu CPF" name="CPF" required><br>
+        <label for="telefone"><b>Telefone</b></label>
+        <input type="text" placeholder="Digite seu Telefone" name="Telefone" required><br>
+        
+
+ 
+        
+        
+        <p><b>Tipo de Evento</b></p>
+        <select name="Tipos de Evento" id="evento">
+            <option>Tipos de Evento </option>
+            <option value="Festa de aniversario (adulto)">Festa de aniversario (adulto)</option>
+            <option value="Festa de aniversario (infantil)">Festa de aniversario (infantil)</option>
+            <option value="Confraternização">Confraternização</option>
+            <option value="Outro">Outro</option>
+        </select>
+    </p>
+    <p id="data">Data da Locação</p>
+    <input type="date" placeholder="Selecione a data" name="data" required><br>
+    
+
+    <p id="selecione">Selecione Seu Pacote</p>
+    <div class="price">
+        <select id="evento">
+            <option>Selecione Seu Pacote</option>
+            <option value="até 20 pessoas = R$ 400,00">até 20 pessoas = R$ 400,00</option>
+            <option value="até 30 pessoas = R$ 500,00">até 30 pessoas = R$ 500,00</option>
+            <option value="até 40 pessoas = R$ 600,00">até 40 pessoas = R$ 600,00</option>
+            <option value="até 50 pessoas = R$ 700,00">até 50 pessoas = R$ 700,00</option>
+            <option value="até 60 pessoas = R$ 800,00">até 60 pessoas = R$ 800,00</option>
+            <option value="até 70 pessoas = R$ 900,00">até 70 pessoas = R$ 900,00</option>
+            <option value="até 80 pessoas = R$ 1.000,00">até 80 pessoas = R$ 1.000,00</option>
+            <option value="até 90 pessoas = R$ 1.100,00">até 90 pessoas = R$ 1.100,00</option>
+            <option value="até 100 pessoas = R$ 1.200,00">até 100 pessoas = R$ 1.200,00</option>
+        </select>
+    </div>
+    
+    <p><b>Adicionar Kit de Limpeza</b></p>
+    <select name="Kit de Limpeza" id="">
+        <option value="Sim">Sim</option>
+        <option value="Não">Não</option>
+    </select>
+</p>
+
+    <p id="b">Horário de Inicio: 08H00</p>
+    <p id="b">Horário de Termino: 18H00</p>
+
+    <P id="titulo">Dados bancários para efetuar o pagamento</P>
+    <p id="mae" > Cícera A. T. Leite Freire</p>
+    <p id="banco">Banco: Nubank</p>
+    <p id="pix">Chave Pix CPF: 415.079.833-87</p>
+    <p id="comprovante"> Adicionar comprovante do pagamento</p>
+    <label for="foto"><strong>Envie o comprovante</strong></label>
+    <input type="file" name="foto" id="foto"><br>
+
+
+    <button type="submit" class="registerbutton">Enviar</button>
+        
+<br><input  type="reset" value="Limpar Dados">
+
+        </p>
+
+		
+		
+	</form>
+</body>
+</html>

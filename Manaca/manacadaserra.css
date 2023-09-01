@@ -1,0 +1,93 @@
+
+         
+body{
+    font-family: 'Roboto', sans-serif; font-weight: bold;
+    margin-left:25%;
+    margin-right:25%;
+    border: 1px solid hsl(150, 70%, 39%);
+    margin-bottom: 5px;
+    padding: 0px 15px 0 15px;
+    }
+    img{
+        width: 100px;
+        margin-top: 1%;
+        margin-left: -1%;
+       
+
+
+    }
+    ::placeholder{
+          color: hsl(150, 70%, 39%);
+    }
+input[type=text] ,[type=image] ,[type=date]
+    {
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #F5F5F5;
+    color: hsl(150, 70%, 39%);
+    }
+.telefone{
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #F5F5F5;
+    color: hsl(150, 70%, 39%);
+}
+
+    hr 
+    {
+    border: 1px solid #e6e6e6;
+    margin-bottom: 5px;
+    }
+p
+{
+    font-size: large;
+}
+.registerbutton
+    {
+    background-color: hsl(150, 70%, 39%);
+    color: white;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    text-decoration-style:bold;
+    }
+#evento{
+    width: 97%;
+    padding: 10px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #F5F5F5;
+    color: hsl(150, 70%, 39%);
+}
+#manaca{
+
+    margin-left: 23%;
+    margin-top: -10%;
+
+ 
+}
+#data{
+    font-weight: bold
+}
+
+label {
+    display: block;
+    padding: 5px;
+
+}
+#titulo{
+    color:hsl(150, 70%, 39%);
+
+}
+#b{
+   font-style: italic;
+}
